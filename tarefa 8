@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia senha
+
+		escreva("digite uma senha")
+		leia(senha)
+
+		se(senha == "12345" ou senha == "admim" ou senha == "senha" ou senha == "password"){
+			escreva("essa senha esta muito facil")
+			
+		}senao{
+			escreva("boa senha")
+		}
+	}
+}
