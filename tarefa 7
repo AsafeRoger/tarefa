@@ -3,22 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro b
-		inteiro a
+		cadeia senha
 
-		escreva("digite um numero")
-		leia(a)
-		escreva("digito outro numero")
-		leia(b)
+		escreva("digite uma senha")
+		leia(senha)
 
-          enquanto (a < b){
-		escreva(b, "n")
-		b = b -1 
-		}
-		
-		enquanto (b < a){
-		escreva( a, "\n")
-		a = a -1 
+		se(senha == "12345" ou senha == "admim" ou senha == "senha" ou senha == "password"){
+			escreva("essa senha esta muito facil")
+			
+		}senao{
+			escreva("boa senha")
 		}
 	}
 }
