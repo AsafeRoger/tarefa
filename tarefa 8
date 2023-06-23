@@ -1,18 +1,21 @@
 programa
 {
+	inclua biblioteca Util
+ --> u
 	
 	funcao inicio()
 	{
-		cadeia senha
-
-		escreva("digite uma senha")
-		leia(senha)
-
-		se(senha == "12345" ou senha == "admim" ou senha == "senha" ou senha == "password"){
-			escreva("essa senha esta muito facil")
+		inteiro nume = 0
+		cadeia chega = "n"
+		enquanto (chega != "chega"){
+			escreva("\n", u.sorteia(0, 10000000))
+			nume = nume + 1 
 			
-		}senao{
-			escreva("boa senha")
+			escreva("chega ja?")
+			leia(chega)
+		
+			se(chega == "chega")
+				escreva("numeros colocados" , nume)
+			}
 		}
-	}
 }
