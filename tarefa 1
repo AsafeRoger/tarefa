@@ -1,0 +1,14 @@
+programa
+{
+	//atividade 1
+	funcao inicio()
+	{
+		inteiro numero = 1 
+
+		enquanto (numero <= 20){
+			escreva(numero, "\n")
+			numero = numero + 1
+			
+		}
+	}
+}
