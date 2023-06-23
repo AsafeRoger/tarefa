@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	// A
+		 inteiro numero 
+		 inteiro x = 1
+		 escreva("digite um numero")
+		 leia(numero)
+		 enquanto( x <= numero){
+		 	escreva(x, "\n")
+		 	x = x + 1 
+		 }
+     // B
+
+     enquanto (numero >= 1){
+     	escreva ( numero, "\n")
+     	numero = numero - 1
+     }
+     
+		 
+	}
+	
+}
