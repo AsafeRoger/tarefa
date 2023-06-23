@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     inteiro a 
+	     inteiro b = 1
+	    
+		escreva("me de um numero para tabuada de 1 a 10: ")
+		leia(a)
+
+		enquanto( b <= 10){
+			escreva(a, "x", b, "=", a * b, "\n")
+			b++
+			
+		}
+	}
+}
