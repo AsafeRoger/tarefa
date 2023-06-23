@@ -1,0 +1,12 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n = 1
+		enquanto (n <= 50){
+			escreva(n, "\n")
+			n = n + 2 
+		}
+	}
+}
